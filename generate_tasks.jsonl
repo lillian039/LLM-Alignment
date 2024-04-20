@@ -999,3 +999,211 @@
 {"inst_id": 998, "instruction": "Construct a timeline of key events in the history of space exploration, highlighting major milestones and achievements."}
 {"inst_id": 999, "instruction": "List and describe the top five natural tourist attractions in a country of your choice, detailing their unique features and appeal to visitors."}
 {"inst_id": 1000, "instruction": "Design a social media campaign to raise awareness about environmental conservation and encourage sustainable practices in everyday life."}
+{"inst_id": 1001, "instruction": "Given a list of news headlines, determine whether each headline is about business, technology, or health."}
+{"inst_id": 1002, "instruction": "Analyze a given piece of music and classify its genre as classical, rock, pop, or jazz."}
+{"inst_id": 1003, "instruction": "Evaluate a piece of writing and determine the reading level (e.g., elementary, middle school, high school, college)."}
+{"inst_id": 1004, "instruction": "Analyze a set of product reviews and determine the overall rating (e.g., 1-star, 2-star, 3-star, 4-star, 5-star)."}
+{"inst_id": 1005, "instruction": "Evaluate a piece of artwork and determine the art movement it belongs to (e.g., impressionism, surrealism, cubism)."}
+{"inst_id": 1006, "instruction": "Given a list of recipes, categorize each recipe as vegetarian, vegan, gluten-free, or dairy-free."}
+{"inst_id": 1007, "instruction": "Analyze a piece of text and determine the author's writing style (e.g., descriptive, persuasive, narrative, expository)."}
+{"inst_id": 1008, "instruction": "Create a marketing strategy for a new eco-friendly household cleaning product."}
+{"inst_id": 1009, "instruction": "Develop a workout routine for someone who wants to improve their cardiovascular health and strength."}
+{"inst_id": 1010, "instruction": "Design a user interface for a mobile app that helps users track their daily water intake."}
+{"inst_id": 1011, "instruction": "Conduct a SWOT analysis for a small local bakery looking to expand its business."}
+{"inst_id": 1012, "instruction": "Research and write a comparison between two leading electric vehicle models on the market."}
+{"inst_id": 1013, "instruction": "Create a weekly meal plan for a family of four that focuses on balanced nutrition and variety."}
+{"inst_id": 1014, "instruction": "Write a persuasive essay arguing for the importance of integrating arts education into primary school curriculum."}
+{"inst_id": 1015, "instruction": "Develop a proposal for a community recycling program aimed at reducing plastic waste in a residential area."}
+{"inst_id": 1016, "instruction": "Develop a workout routine that focuses on strength training and flexibility, suitable for beginners."}
+{"inst_id": 1017, "instruction": "Create a step-by-step guide on how to meditate for stress relief and relaxation."}
+{"inst_id": 1018, "instruction": "Design a budget-friendly travel itinerary for a weekend getaway to a nearby city."}
+{"inst_id": 1019, "instruction": "Write a short story incorporating elements of fantasy and mystery, with a surprise ending."}
+{"inst_id": 1020, "instruction": "Research and present a comparative analysis of different streaming platforms based on content variety and subscription prices."}
+{"inst_id": 1021, "instruction": "Plan and execute a DIY home improvement project, such as painting a room or building a piece of furniture."}
+{"inst_id": 1022, "instruction": "Compile a list of household plants that are low-maintenance and suitable for beginners with limited gardening experience."}
+{"inst_id": 1023, "instruction": "Create a guide on basic car maintenance tasks that every driver should know, including how to check oil levels and change a flat tire."}
+{"inst_id": 1024, "instruction": "Create a workout routine that includes both cardio and strength training exercises."}
+{"inst_id": 1025, "instruction": "Design a poster promoting an upcoming community event."}
+{"inst_id": 1026, "instruction": "Write a step-by-step guide on how to grow your own herbs at home."}
+{"inst_id": 1027, "instruction": "Compose a list of tips for maintaining mental well-being during stressful times."}
+{"inst_id": 1028, "instruction": "Research and write a brief summary of the history of a famous landmark in your city."}
+{"inst_id": 1029, "instruction": "Develop a budget plan for a weekend getaway trip."}
+{"inst_id": 1030, "instruction": "Write a dialogue between two characters who are discussing the impact of climate change on their community."}
+{"inst_id": 1031, "instruction": "Create a Pinterest board showcasing fashion trends for the upcoming season."}
+{"inst_id": 1032, "instruction": "Write a short story inspired by the prompt \"A mysterious package arrives on the doorstep of an unsuspecting character.\""}
+{"inst_id": 1033, "instruction": "Create a workout routine for someone looking to improve their flexibility and mobility."}
+{"inst_id": 1034, "instruction": "Develop a recipe for a unique and delicious sandwich using only five ingredients."}
+{"inst_id": 1035, "instruction": "Create a travel itinerary for a weekend getaway to a city of your choice, including sightseeing spots, dining recommendations, and accommodation options."}
+{"inst_id": 1036, "instruction": "Design a logo for a fictional company specializing in eco-friendly home products."}
+{"inst_id": 1037, "instruction": "Write a persuasive argument either for or against the use of social media in education."}
+{"inst_id": 1038, "instruction": "Come up with a list of self-care activities that can be done in under 15 minutes."}
+{"inst_id": 1039, "instruction": "Create a playlist of songs for a road trip, including a brief explanation of why each song was chosen."}
+{"inst_id": 1040, "instruction": "Write a short story using only 50 words."}
+{"inst_id": 1041, "instruction": "Research and list three traditional dishes from a country you've never visited before."}
+{"inst_id": 1042, "instruction": "Develop a playlist of ten songs for a road trip, including the artist and genre for each song."}
+{"inst_id": 1043, "instruction": "Design a poster promoting a local charity event, including essential details and eye-catching visuals."}
+{"inst_id": 1044, "instruction": "Write a persuasive speech arguing for the importance of environmental conservation."}
+{"inst_id": 1045, "instruction": "Compile a list of five recommended books on personal development and provide a brief summary of each."}
+{"inst_id": 1046, "instruction": "Create a budget plan for a week-long vacation to a destination of your choice, detailing expenses for transportation, accommodation, food, and activities."}
+{"inst_id": 1047, "instruction": "Design a poster promoting eco-friendly habits in daily life."}
+{"inst_id": 1048, "instruction": "Create a short story incorporating the elements of fire, water, and a mysterious stranger."}
+{"inst_id": 1049, "instruction": "Develop a beginner's workout routine that can be done at home without any equipment."}
+{"inst_id": 1050, "instruction": "Compare and contrast two different psychological theories explaining human behavior."}
+{"inst_id": 1051, "instruction": "Plan a week-long itinerary for a cultural immersion trip to a destination of your choice."}
+{"inst_id": 1052, "instruction": "Write a persuasive letter to a local government official advocating for a new community project."}
+{"inst_id": 1053, "instruction": "Design a logo for a fictional company that promotes sustainable living practices."}
+{"inst_id": 1054, "instruction": "Research and present a case study on the impact of social media on mental health among adolescents."}
+{"inst_id": 1055, "instruction": "Come up with a creative story using the following six words: umbrella, dinosaur, cake, rainbow, telescope, and adventure."}
+{"inst_id": 1056, "instruction": "Analyze a poem and identify its central theme or message."}
+{"inst_id": 1057, "instruction": "Compile a list of ten tips for effective time management in a fast-paced work environment."}
+{"inst_id": 1058, "instruction": "Compare and contrast two famous historical figures and discuss their impact on society."}
+{"inst_id": 1059, "instruction": "Research and present a brief overview of a popular cultural festival celebrated in a different country."}
+{"inst_id": 1060, "instruction": "Develop a menu for a week-long healthy meal plan, including breakfast, lunch, dinner, and snacks."}
+{"inst_id": 1061, "instruction": "Create a 5-minute mindfulness exercise that can be practiced anywhere."}
+{"inst_id": 1062, "instruction": "Develop a step-by-step guide for making a budget-friendly DIY home decor project."}
+{"inst_id": 1063, "instruction": "Compare and contrast two different productivity apps, highlighting their key features and differences."}
+{"inst_id": 1064, "instruction": "Craft a 500-word short story using the prompt \"an unexpected visitor at midnight.\""}
+{"inst_id": 1065, "instruction": "Design a workout routine specifically tailored for beginners, including warm-up and cool-down exercises."}
+{"inst_id": 1066, "instruction": "Research and curate a list of must-read books in a specific genre, providing a brief summary for each."}
+{"inst_id": 1067, "instruction": "Generate a weekly meal plan for a family of four with dietary preferences for vegetarian and gluten-free options."}
+{"inst_id": 1068, "instruction": "Compile a list of effective study techniques for visual learners, auditory learners, and kinesthetic learners."}
+{"inst_id": 1069, "instruction": "Write a short story where the protagonist is a talking animal and faces a moral dilemma, resolving it in a creative and unexpected way."}
+{"inst_id": 1070, "instruction": "Design a menu for a dinner party with a specific theme, including appetizers, main courses, drinks, and desserts."}
+{"inst_id": 1071, "instruction": "Create a step-by-step guide on how to cultivate a medicinal herb garden at home, including plant care tips and usage recommendations."}
+{"inst_id": 1072, "instruction": "Develop a playlist of songs that evoke a sense of nostalgia and write a brief explanation of why each song holds a special meaning to you."}
+{"inst_id": 1073, "instruction": "Share a recipe for a unique fusion dish that combines flavors from two different cuisines, explaining the inspiration behind the recipe and the cooking process."}
+{"inst_id": 1074, "instruction": "Craft a persuasive argument on the importance of mental health awareness and destigmatization, providing statistical data and personal anecdotes to support your points."}
+{"inst_id": 1075, "instruction": "Propose a list of sustainable lifestyle changes that individuals can adopt to reduce their carbon footprint and promote environmental conservation."}
+{"inst_id": 1076, "instruction": "Choose a historical event and create a timeline outlining key milestones and significant developments that led to its outcome, along with analysis of its impact on society."}
+{"inst_id": 1077, "instruction": "Create a poem using the theme of nature and incorporating the words \"rainbow\" and \"whisper\"."}
+{"inst_id": 1078, "instruction": "Develop a workout routine that can be completed in a small apartment without any equipment."}
+{"inst_id": 1079, "instruction": "Write a persuasive essay arguing for or against the use of genetically modified organisms (GMOs) in agriculture."}
+{"inst_id": 1080, "instruction": "Compose a short song lyrics that tell a story about overcoming adversity and finding inner strength."}
+{"inst_id": 1081, "instruction": "Create a DIY tutorial video demonstrating how to make a unique piece of jewelry using recycled materials."}
+{"inst_id": 1082, "instruction": "Develop a step-by-step guide on how to grow your own organic vegetable garden in a small urban space."}
+{"inst_id": 1083, "instruction": "Explore three ways to improve time management skills in a work setting."}
+{"inst_id": 1084, "instruction": "Develop a step-by-step guide for setting up a personal budget."}
+{"inst_id": 1085, "instruction": "Provide tips for effective communication in a team setting."}
+{"inst_id": 1086, "instruction": "Create a playlist of uplifting songs for a road trip."}
+{"inst_id": 1087, "instruction": "Write a short story involving a character who discovers a hidden talent."}
+{"inst_id": 1088, "instruction": "Offer advice on dealing with stress during exam season."}
+{"inst_id": 1089, "instruction": "Design a daily self-care routine for mental health and well-being."}
+{"inst_id": 1090, "instruction": "Research and recommend three books that can inspire personal growth and development."}
+{"inst_id": 1091, "instruction": "Develop a workout routine that targets specific muscle groups for a beginner at the gym."}
+{"inst_id": 1092, "instruction": "Describe the process of brewing a perfect cup of coffee using a French press."}
+{"inst_id": 1093, "instruction": "Create a step-by-step guide on how to build a basic website using HTML and CSS."}
+{"inst_id": 1094, "instruction": "Compare and contrast the characteristics of two different programming languages of your choice."}
+{"inst_id": 1095, "instruction": "Research and list five influential historical figures from a specific region, highlighting their contributions."}
+{"inst_id": 1096, "instruction": "Design a healthy and balanced meal plan for a person following a vegetarian diet for a week."}
+{"inst_id": 1097, "instruction": "Explain the concept of climate change to a child in a simple and understandable way."}
+{"inst_id": 1098, "instruction": "Develop a mindfulness meditation exercise that can be practiced for calming the mind and reducing stress."}
+{"inst_id": 1099, "instruction": "Write a short fictional story about a talking animal who goes on a magical adventure."}
+{"inst_id": 1100, "instruction": "Explain the process of photosynthesis in a simple and engaging way suitable for young students."}
+{"inst_id": 1101, "instruction": "Solve a logic puzzle involving five friends who have different favorite colors, animals, and hobbies."}
+{"inst_id": 1102, "instruction": "Create a list of 10 recommended books for someone interested in starting a new hobby."}
+{"inst_id": 1103, "instruction": "Write a step-by-step guide on how to create a DIY piece of home decor using recycled materials."}
+{"inst_id": 1104, "instruction": "Come up with a list of 20 fun and creative activities for kids to do during the summer vacation."}
+{"inst_id": 1105, "instruction": "Develop a detailed plan for organizing a community fundraiser event, including budgeting, marketing, and logistics."}
+{"inst_id": 1106, "instruction": "Create a step-by-step guide on how to make a traditional dish favorited herbed grilled chicken."}
+{"inst_id": 1107, "instruction": "Analyze a famous poem and provide a detailed discussion on the underlying themes and literary devices used by the poet."}
+{"inst_id": 1108, "instruction": "Conduct a comparative analysis of two major historical events, discussing their significance and impact on society."}
+{"inst_id": 1109, "instruction": "Develop a playlist of music from various genres that evoke specific emotions, such as joy, sadness, or excitement."}
+{"inst_id": 1110, "instruction": "Research and present a comprehensive guide on sustainable living practices that individuals can adopt in their daily lives."}
+{"inst_id": 1111, "instruction": "Write a short story that incorporates elements of science fiction and explores the concept of time travel."}
+{"inst_id": 1112, "instruction": "Investigate and compile a list of notable inventions and their inventors, highlighting the impact these innovations have had on the world."}
+{"inst_id": 1113, "instruction": "Create a detailed nutrition plan for a week, catering to specific dietary requirements such as veganism or gluten-free diets."}
+{"inst_id": 1114, "instruction": "Describe the historical significance of a famous landmark in a specific country."}
+{"inst_id": 1115, "instruction": "Create a step-by-step guide on how to perform a popular dance routine."}
+{"inst_id": 1116, "instruction": "Compare and contrast two different political systems with their pros and cons."}
+{"inst_id": 1117, "instruction": "Provide a list of essential travel phrases in a language of your choice."}
+{"inst_id": 1118, "instruction": "Analyze a current event and discuss its potential impacts on the global economy."}
+{"inst_id": 1119, "instruction": "List and explain the benefits of practicing a specific form of exercise for physical and mental health."}
+{"inst_id": 1120, "instruction": "Identify key characteristics of a traditional folk dance from a particular region and demonstrate a basic dance routine."}
+{"inst_id": 1121, "instruction": "Create a step-by-step recipe for a popular dish."}
+{"inst_id": 1122, "instruction": "Write a short dialogue between two characters discussing a recent news event."}
+{"inst_id": 1123, "instruction": "Develop a list of strategies for improving time management skills."}
+{"inst_id": 1124, "instruction": "Craft a persuasive argument for a controversial topic, supported by evidence."}
+{"inst_id": 1125, "instruction": "Create a playlist of motivational songs for a workout session."}
+{"inst_id": 1126, "instruction": "Compare and contrast two different leadership styles commonly seen in the workplace."}
+{"inst_id": 1127, "instruction": "Design a poster promoting environmental sustainability practices in daily life."}
+{"inst_id": 1128, "instruction": "Analyze a given piece of artwork and write a critique on its style, composition, and symbolism."}
+{"inst_id": 1129, "instruction": "Design a budget and financial plan for a recent college graduate starting their first job."}
+{"inst_id": 1130, "instruction": "Develop a short story incorporating the elements of mystery and suspense."}
+{"inst_id": 1131, "instruction": "Conduct a comparative analysis of two different political systems and their impact on society."}
+{"inst_id": 1132, "instruction": "Research and present a proposal for implementing sustainable practices in a local community or organization."}
+{"inst_id": 1133, "instruction": "Compile a list of practical tips for improving time management and productivity in a work or school setting."}
+{"inst_id": 1134, "instruction": "Write a short story using the following three elements: a lost key, a mysterious old house, and a sudden thunderstorm. "}
+{"inst_id": 1135, "instruction": "Calculate the area of a circle with a radius of 5 units. "}
+{"inst_id": 1136, "instruction": "Explain the concept of cultural relativism and provide an example to illustrate it. "}
+{"inst_id": 1137, "instruction": "Design a poster promoting environmental conservation for a local community event. "}
+{"inst_id": 1138, "instruction": "Write a step-by-step guide on how to cook a traditional dish from your country. "}
+{"inst_id": 1139, "instruction": "Analyze a famous piece of artwork and discuss the emotions or messages it conveys. "}
+{"inst_id": 1140, "instruction": "Develop a budget for a weekend getaway, including transportation, accommodation, food, and activities."}
+{"inst_id": 1141, "instruction": "Analyze a famous work of art and discuss its significance in the context of its time period."}
+{"inst_id": 1142, "instruction": "Write a short story incorporating elements of science fiction and mystery genres."}
+{"inst_id": 1143, "instruction": "Create a playlist of music that reflects different moods and emotions for different times of the day."}
+{"inst_id": 1144, "instruction": "Research and present a comparative analysis of two different political systems."}
+{"inst_id": 1145, "instruction": "Design a logo for a fictional company and explain the choices you made in the design process."}
+{"inst_id": 1146, "instruction": "Conduct a scientific experiment at home using common household items and document your findings."}
+{"inst_id": 1147, "instruction": "Plan and execute a small community service project in your local area, documenting the process and impact."}
+{"inst_id": 1148, "instruction": "Create a workout routine consisting of cardio, strength training, and flexibility exercises, and explain the benefits of each."}
+{"inst_id": 1149, "instruction": "Write a short story using the prompt \"A mysterious object appears on your doorstep with a note attached. What does the note say and what happens next?\""}
+{"inst_id": 1150, "instruction": "Research a current global issue, such as climate change or refugee crises, and propose potential solutions to address the problem."}
+{"inst_id": 1151, "instruction": "Design a logo for a fictional company, considering aspects like color psychology, simplicity, and branding elements."}
+{"inst_id": 1152, "instruction": "Analyze a famous speech or TED Talk, focusing on the speaker's rhetoric, persuasive techniques, and effectiveness in engaging the audience."}
+{"inst_id": 1153, "instruction": "Design a 30-minute workout routine for a beginner wanting to improve their overall fitness level."}
+{"inst_id": 1154, "instruction": "Analyze a financial report and provide recommendations for improving profitability."}
+{"inst_id": 1155, "instruction": "Write a critical analysis of a famous piece of literature, focusing on its themes and symbolism."}
+{"inst_id": 1156, "instruction": "Develop a marketing plan for a new product aimed at a specific target audience."}
+{"inst_id": 1157, "instruction": "Design a 7-day meal plan for someone following a vegetarian diet, ensuring all nutritional needs are met."}
+{"inst_id": 1158, "instruction": "Research the history of a popular holiday and present a timeline of its evolution over the years."}
+{"inst_id": 1159, "instruction": "Compile a list of the top 10 travel destinations for adventure seekers, including a brief description of each location."}
+{"inst_id": 1160, "instruction": "Create a detailed plan for organizing a virtual charity event to raise funds for a local cause."}
+{"inst_id": 1161, "instruction": "Develop a step-by-step guide on how to build a simple mobile application for beginners."}
+{"inst_id": 1162, "instruction": "Create a persuasive speech advocating for the importance of mental health awareness and destigmatization in schools."}
+{"inst_id": 1163, "instruction": "Write a fictional dialogue between two historical figures discussing a significant event that shaped the course of history."}
+{"inst_id": 1164, "instruction": "Design a poster promoting environmental conservation and sustainable living practices in a visually appealing way."}
+{"inst_id": 1165, "instruction": "Create a social media marketing campaign for a new line of eco-friendly clothing targeted towards millennials."}
+{"inst_id": 1166, "instruction": "Craft a detailed meal plan for a week-long vegetarian diet that includes a variety of nutrients and flavors."}
+{"inst_id": 1167, "instruction": "Write a short play script that explores themes of friendship and betrayal among a group of childhood friends."}
+{"inst_id": 1168, "instruction": "Write a short story incorporating the following three elements: a mysterious key, a sudden thunderstorm, and a lost puppy."}
+{"inst_id": 1169, "instruction": "Plan a budget-friendly birthday party for a friend, including venue ideas, decorations, and activities."}
+{"inst_id": 1170, "instruction": "Research and write a comparative analysis of two different cultural traditions from around the world."}
+{"inst_id": 1171, "instruction": "Develop a social media marketing strategy for a small local business looking to increase its online presence."}
+{"inst_id": 1172, "instruction": "Write step-by-step instructions on how to cook a traditional dish from a cuisine you are not familiar with."}
+{"inst_id": 1173, "instruction": "Come up with a list of interview questions for a position in a field that you are interested in pursuing in the future."}
+{"inst_id": 1174, "instruction": "Write a short fictional story incorporating the following three elements: a red umbrella, a lost key, and a mysterious message."}
+{"inst_id": 1175, "instruction": "Create a step-by-step guide on how to make a homemade candle, including materials needed and the process involved."}
+{"inst_id": 1176, "instruction": "Compile a list of 10 lesser-known historical events from around the world and provide a brief description of each event."}
+{"inst_id": 1177, "instruction": "Choose a controversial topic and present a balanced argument outlining both the pros and cons of the issue."}
+{"inst_id": 1178, "instruction": "Imagine you are a tour guide leading a group through a fictional ancient city. Write a detailed itinerary highlighting key points of interest and historical significance."}
+{"inst_id": 1179, "instruction": "Analyze a famous painting or artwork and interpret its possible meanings or symbolism."}
+{"inst_id": 1180, "instruction": "Create a playlist of songs that evoke a specific emotion or mood, and explain why you chose each song."}
+{"inst_id": 1181, "instruction": "Research and summarize the history and cultural significance of a traditional festival from around the world."}
+{"inst_id": 1182, "instruction": "Design a sustainable and eco-friendly product that addresses a common everyday problem."}
+{"inst_id": 1183, "instruction": "Develop a short skit or play script involving characters from different time periods meeting or interacting with each other."}
+{"inst_id": 1184, "instruction": "Compare and contrast two prominent theories or philosophies from different historical eras, explaining their key principles and impact."}
+{"inst_id": 1185, "instruction": "Write a letter from the perspective of a historical figure to a contemporary person, discussing their thoughts on modern society."}
+{"inst_id": 1186, "instruction": "Come up with a list of 10 must-read books for someone interested in science fiction."}
+{"inst_id": 1187, "instruction": "Research and compile a list of traditional dances from different cultures around the world."}
+{"inst_id": 1188, "instruction": "Create a workout routine that can be done at home with no equipment, suitable for beginners."}
+{"inst_id": 1189, "instruction": "Design a poster promoting environmental conservation and sustainability."}
+{"inst_id": 1190, "instruction": "Recommend five lesser-known travel destinations that offer unique experiences and cultural insights."}
+{"inst_id": 1191, "instruction": "Develop a recipe for a healthy and delicious smoothie using seasonal fruits and vegetables."}
+{"inst_id": 1192, "instruction": "Come up with a short story that incorporates the elements of fire, a key, and a mysterious letter. "}
+{"inst_id": 1193, "instruction": "Describe a time when you had to resolve a conflict in a group setting and explain the steps you took to reach a resolution."}
+{"inst_id": 1194, "instruction": "Research a current environmental issue and propose three practical solutions to address it."}
+{"inst_id": 1195, "instruction": "Create a list of ten unique and meaningful travel destinations around the world with a brief description of each."}
+{"inst_id": 1196, "instruction": "Write a persuasive argument on the importance of volunteering in the community and its positive impact on society."}
+{"inst_id": 1197, "instruction": "Analyze a famous work of art and discuss how its cultural or historical context influenced its creation and reception."}
+{"inst_id": 1198, "instruction": "Develop a 30-day fitness challenge including workouts for different muscle groups."}
+{"inst_id": 1199, "instruction": "Compare and contrast two different major world religions in terms of their beliefs, practices, and impact on society."}
+{"inst_id": 1200, "instruction": "Write a persuasive essay arguing for or against the use of social media influencers in marketing products to young audiences."}
+{"inst_id": 1201, "instruction": "Analyze a historical event from multiple perspectives, such as political, social, and economic, to understand its full impact."}
+{"inst_id": 1202, "instruction": "Create a checklist for organizing a successful networking event, including tasks like securing a venue, inviting guests, and planning activities."}
+{"inst_id": 1203, "instruction": "Create a step-by-step guide for assembling a piece of furniture."}
+{"inst_id": 1204, "instruction": "Analyze a piece of art and discuss its possible interpretations."}
+{"inst_id": 1205, "instruction": "Review a book and provide a detailed analysis of its themes, characters, and writing style."}
+{"inst_id": 1206, "instruction": "Compare and contrast two different cooking techniques for preparing the same dish."}
+{"inst_id": 1207, "instruction": "Conduct a SWOT analysis for a local business in your community."}
+{"inst_id": 1208, "instruction": "Create a playlist of songs for a specific mood or occasion, and provide a brief description for each song chosen."}
