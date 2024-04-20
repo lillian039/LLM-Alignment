@@ -51,5 +51,4 @@ def main():
             new_data = insert_new_instruct("generate_tasks.jsonl", new_inst)
             machine_instructions.append(new_data)
 
-if __name__ == "__main__":
-    main()
+main()
