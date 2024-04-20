@@ -1,6 +1,6 @@
 from openai import OpenAI
 import json
-from src.query_util import send_msg, get_answer
+from src.query_util import get_answer
 from src.prompt import get_prompt_generate_new_task
 from src.utils.logger import get_logger
 import random

@@ -13,9 +13,18 @@ def get_prompt_generate_new_task(tasks):
     prompt += f"Task {len(tasks) + 1}: \nTask {len(tasks) + 2}: \n...\nTask {len(tasks) + 8}: \n"
     return prompt
 
-def get_prompt_task_classification(tasks):
-    # prompt = "Can the following task be regarded as a classification task with finite output labels?\n\n"
-    # instruction = [task["instruction"] for task in tasks]
-    # prompt += f"Task: {tasks[0]["instruction"]}\n"
-    # prompt += "Is it classification?"
-    pass
+def get_prompt_task_classification(task_example, test_example):
+    prompt = "Can the following task be regarded as a classification task with finite output labels?\n\nHere are some examples\n\n"
+    for task in task_example:
+        instruction = task["instruction"]
+        is_classification = "True" if task["is_classification"] else "False"
+        prompt += f"Task: {instruction}\n"
+        prompt += f"Is the classification? {is_classification}\n\n"
+    prompt += "\nBase on the example, Please provide a Yes or No answer for the following tasks.\n"
+    for i, task in enumerate(test_example):
+        instruction = task["instruction"]
+        prompt += f"Task {i}: {instruction}\n"
+        prompt += "Is it classification?\n"
+    prompt += f"\nAnswer in the following format:\n\nTask 1: Yes/No\nTask 2: Yes/No\n...\nTask {len(test_example)}: Yes/No\n"
+    return prompt
+

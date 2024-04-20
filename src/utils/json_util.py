@@ -18,6 +18,18 @@ def insert_new_instruct(file_path, new_inst):
         f.write(json.dumps(new_data) + "\n")
     return new_data
 
+def insert_new_classification(file_path, inst, is_classify_str):
+    mode = "a" if os.path.exists(file_path) else "w"
+    number = 0
+    if mode == "a":
+        last_line = read_last_line_jsonl(file_path)
+        number = int(last_line["inst_id"]) + 1
+    is_classify = True if is_classify_str == "Yes" else False
+    new_data = {"inst_id": number, "instruction": inst, "is_classification": is_classify}
+    with open(file_path, mode) as f:
+        f.write(json.dumps(new_data) + "\n")
+    return new_data
+
 def get_seed_machine(seed_path, machine_path):
     seed_instructions = []
     machine_instructions = []
