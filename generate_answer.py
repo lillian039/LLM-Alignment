@@ -17,6 +17,5 @@ def generate_answer():
             prompt = get_prompt_input_first_gen(task)
         answer = get_answer("", prompt, client, logger)
         insert_new_answer("result/generate_data.jsonl", task, answer)
-        exit(0)
 
 generate_answer()
