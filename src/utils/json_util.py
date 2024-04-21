@@ -30,16 +30,36 @@ def insert_new_classification(file_path, inst, is_classify_str):
         f.write(json.dumps(new_data) + "\n")
     return new_data
 
-def insert_new_answer(file_path, inst, answer):
+def insert_new_answer(file_path, inst, input_list, output_list):
     mode = "a" if os.path.exists(file_path) else "w"
     number = 0
     if mode == "a":
         last_line = read_last_line_jsonl(file_path)
         number = int(last_line["inst_id"]) + 1
-    inst["instance"] = answer
+    inst["instance"] = []
+    for i, (input, output) in enumerate(zip(input_list, output_list)):
+        input_content = input
+        input_content = input_content.strip()
+        if input_content == "None":
+            input_content = ""
+        output_content = output
+        output_content = output_content.strip()
+        if output_content == "" and input_content == "":
+            continue
+        inst["instance"].append({"input": input_content, "output": output_content})
     with open(file_path, mode) as f:
         f.write(json.dumps(inst) + "\n")
     return inst
+
+def insert_final(file_path, instruction):
+    mode = "a" if os.path.exists(file_path) else "w"
+    number = 0
+    if mode == "a":
+        last_line = read_last_line_jsonl(file_path)
+        number = int(last_line["inst_id"]) + 1
+    instruction["inst_id"] = number
+    with open(file_path, mode) as f:
+        f.write(json.dumps(instruction) + "\n")
 
 def get_seed_machine(seed_path, machine_path):
     seed_instructions = []

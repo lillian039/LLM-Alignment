@@ -34,10 +34,13 @@ def get_prompt_task_classification(task_example, test_example):
 def get_prompt_output_first_clf(test_example):
     prompt = output_first_template_for_clf
     prompt += test_example['instruction']
+    prompt += "\n\nAnswer in the following format:\nClass label: \nInput: \nClass label: \nInput: \n...\n"
     return prompt
 
 def get_prompt_input_first_gen(test_example):
     prompt = input_first_template_for_gen
     prompt += test_example['instruction']
+    prompt += "\n\nAnswer in the following format: Input: \nOutput: \nInput: \nOutput: \n...\n"
+    prompt += "If there is no input, set Input as 'None"
     return prompt
 

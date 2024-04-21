@@ -11,8 +11,7 @@ from src.utils.json_util import insert_new_classification, get_seed_machine
 import re
 
 def classify_instruction():
-    
-    client = OpenAI()
+    client = OpenAI(base_url = "https://lonlie.plus7.plus/v1")
     logger = get_logger("run2")
     random.seed(123)
     seed_instructions, machine_instructions = get_seed_machine("result/seed_tasks.jsonl", "result/generate_tasks2.jsonl")
