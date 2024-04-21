@@ -13,7 +13,7 @@ def main():
     client = OpenAI()
     random.seed(123)
     logger = get_logger("run3")
-    seed_instructions, machine_instructions = get_seed_machine("seed_tasks.jsonl", "generate_tasks2.jsonl")
+    seed_instructions, machine_instructions = get_seed_machine("result/seed_tasks.jsonl", "result/generate_tasks2.jsonl")
     seed_is_classification = []
     seed_not_classification = []
     for instruction in seed_instructions:
@@ -57,7 +57,7 @@ def main():
                 continue
 
             # add new response
-            new_data = insert_new_instruct("generate_tasks2.jsonl", new_inst)
+            new_data = insert_new_instruct("result/generate_tasks2.jsonl", new_inst)
             machine_instructions.append(new_data)
 
 main()

@@ -1,0 +1,1 @@
+{"inst_id": 0, "instruction": "Determine if the given text is plagiarized or original.", "is_classification": true, "instance": "Class label: Plagiarized\nText: The quick brown fox jumps over the lazy dog.\nClass label: Original\nText: The innovative solution presented in the research paper addresses a critical issue in the field."}

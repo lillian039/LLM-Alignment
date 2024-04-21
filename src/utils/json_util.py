@@ -30,6 +30,17 @@ def insert_new_classification(file_path, inst, is_classify_str):
         f.write(json.dumps(new_data) + "\n")
     return new_data
 
+def insert_new_answer(file_path, inst, answer):
+    mode = "a" if os.path.exists(file_path) else "w"
+    number = 0
+    if mode == "a":
+        last_line = read_last_line_jsonl(file_path)
+        number = int(last_line["inst_id"]) + 1
+    inst["instance"] = answer
+    with open(file_path, mode) as f:
+        f.write(json.dumps(inst) + "\n")
+    return inst
+
 def get_seed_machine(seed_path, machine_path):
     seed_instructions = []
     machine_instructions = []
@@ -42,4 +53,17 @@ def get_seed_machine(seed_path, machine_path):
             for line in f:
                 data = json.loads(line)
                 machine_instructions.append(data)
+    return seed_instructions, machine_instructions
+
+def get_classified_data(seed_path, machine_path):
+    seed_instructions = []
+    machine_instructions = []
+    with open(seed_path) as f:
+        for line in f:
+            data = json.loads(line)
+            seed_instructions.append(data)
+    with open(machine_path) as f:
+        for line in f:
+            data = json.loads(line)
+            machine_instructions.append(data)
     return seed_instructions, machine_instructions

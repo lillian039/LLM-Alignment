@@ -1,3 +1,6 @@
+from .example_template import input_first_template_for_gen, output_first_template_for_clf
+
+
 """
 8 existing instructions are randomly sampled from the task
 pool for in-context demonstration. The model is allowed to generate instructions for new tasks, until it stops its
@@ -26,5 +29,15 @@ def get_prompt_task_classification(task_example, test_example):
         prompt += f"Task {i}: {instruction}\n"
         prompt += "Is it classification?\n"
     prompt += f"\nAnswer in the following format:\n\nTask 1: Yes/No\nTask 2: Yes/No\n...\nTask {len(test_example)}: Yes/No\n"
+    return prompt
+
+def get_prompt_output_first_clf(test_example):
+    prompt = output_first_template_for_clf
+    prompt += test_example['instruction']
+    return prompt
+
+def get_prompt_input_first_gen(test_example):
+    prompt = input_first_template_for_gen
+    prompt += test_example['instruction']
     return prompt
 
