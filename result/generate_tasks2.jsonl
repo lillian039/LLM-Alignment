@@ -998,3 +998,5 @@
 {"inst_id": 997, "instruction": "Compare and contrast two historical events in a written essay format, highlighting their impact and significance."}
 {"inst_id": 998, "instruction": "Design a logo for a fictitious company, incorporating elements that reflect its values and services."}
 {"inst_id": 999, "instruction": "Conduct a SWOT analysis for a business of your choice, identifying its strengths, weaknesses, opportunities, and threats to inform strategic planning."}
+{"inst_id": 1000, "instruction": "Analyze the tone of the speech (positive, negative, neutral)."}
+{"inst_id": 1001, "instruction": "Given a product review, determine if it is genuine or fake."}

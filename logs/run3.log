@@ -3830,3 +3830,44 @@ Task 10:
 Task 16: 
 
 2024-04-20 20:57:57,749 - my_logger - INFO - response: [('9', 'Analyze a given data set and create statistical visualizations to illustrate trends and patterns.'), ('10', 'Translate a paragraph from English to a language of your choice, focusing on accuracy and cultural nuances.'), ('11', 'Develop a workout routine for beginners that targets different muscle groups and includes cardio exercises.'), ('12', 'Compare and contrast two historical events in a written essay format, highlighting their impact and significance.'), ('13', 'Create a marketing campaign proposal for a new product, including target audience analysis and promotional strategies.'), ('14', 'Design a logo for a fictitious company, incorporating elements that reflect its values and services.'), ('15', 'Write a short story using a given set of characters, settings, and themes to create a cohesive narrative with a clear plot progression.'), ('16', 'Conduct a SWOT analysis for a business of your choice, identifying its strengths, weaknesses, opportunities, and threats to inform strategic planning.')]
+2024-04-21 18:35:55,128 - my_logger - INFO - Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-0cQ8z***************************************98Ad. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-04-21 18:36:54,920 - my_logger - INFO - Come up with a series of tasks:
+
+Task 1: Tell if the sentence contains toxic language.
+Task 2: Given some political opinions, classify whether the person belongs to Democrats or Republicans.
+Task 3: Given a user query, find out which of the following passages contains the answer to the query. Output the passage index.
+Task 4: Classify the sentiment of the sentence into positive, negative or mixed.
+Task 5: Tell me whether the behavior is ethical or not. Output "ethical" or "not ethical".
+Task 6: In this task, you need to compare the meaning of the two sentences and tell if they are the same. Output yes or no.
+Task 7: Answer the following multiple choice question. Select A, B, C, or D for the final answer.
+Task 8: Tell me if the following email is a promotion email.
+
+Base on the examples, please generate 8 more different and diverse tasks in the following format:
+
+Task 9: 
+Task 10: 
+...
+Task 16: 
+
+2024-04-21 18:36:54,921 - my_logger - INFO - response: [('9', 'Analyze the tone of the speech (positive, negative, neutral).'), ('10', 'Identify if a statement contains biased language.'), ('11', 'Determine the emotion expressed in the text (happy, sad, angry, etc.).'), ('12', 'Predict the next word in a given sentence based on context.'), ('13', 'Detect the presence of a logical fallacy in a given argument.'), ('14', 'Assess the level of formality in a piece of writing (formal, informal, colloquial).'), ('15', 'Classify a news article as objective or subjective.'), ('16', 'Identify the main theme or subject of a given text.')]
+2024-04-21 18:37:25,033 - my_logger - INFO - Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-0cQ8z***************************************98Ad. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-04-21 18:37:36,042 - my_logger - INFO - Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-0cQ8z***************************************98Ad. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-04-21 18:38:02,782 - my_logger - INFO - Come up with a series of tasks:
+
+Task 1: Tell if the sentence contains toxic language.
+Task 2: Given some political opinions, classify whether the person belongs to Democrats or Republicans.
+Task 3: Given a user query, find out which of the following passages contains the answer to the query. Output the passage index.
+Task 4: Classify the sentiment of the sentence into positive, negative or mixed.
+Task 5: Tell me whether the behavior is ethical or not. Output "ethical" or "not ethical".
+Task 6: In this task, you need to compare the meaning of the two sentences and tell if they are the same. Output yes or no.
+Task 7: Answer the following multiple choice question. Select A, B, C, or D for the final answer.
+Task 8: Tell me if the following email is a promotion email.
+
+Base on the examples, please generate 8 more different and diverse tasks in the following format:
+
+Task 9: 
+Task 10: 
+...
+Task 16: 
+
+2024-04-21 18:38:02,782 - my_logger - INFO - response: [('9', 'Given a product review, determine if it is genuine or fake.'), ('10', 'Analyze a piece of code and identify any potential security vulnerabilities.'), ('11', 'Detect the language in which a given text is written (English, Spanish, French, etc.).'), ('12', 'Evaluate the complexity level of a given passage of text (easy, intermediate, advanced).'), ('13', 'Identify the primary emotions expressed in a conversation (joy, anger, sadness, etc.).'), ('14', 'Determine if a piece of news is reliable or fake based on the credibility of the source.'), ('15', 'Assess the level of formality in a given text (informal, neutral, formal).'), ('16', 'Predict the next word in a sentence based on the context and language patterns.')]

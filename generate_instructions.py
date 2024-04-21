@@ -1,3 +1,4 @@
+import openai
 from openai import OpenAI
 import json
 from src.query_util import get_answer
@@ -10,10 +11,10 @@ from src.utils.json_util import insert_new_instruct, get_seed_machine
 import re
 
 def main():
-    client = OpenAI()
+    client = OpenAI(base_url = "https://lonlie.plus7.plus/v1")
     random.seed(123)
     logger = get_logger("run3")
-    seed_instructions, machine_instructions = get_seed_machine("result/seed_tasks.jsonl", "result/generate_tasks2.jsonl")
+    seed_instructions, machine_instructions = get_seed_machine("result/seed_tasks.jsonl", "result/generate_tasks3.jsonl")
     seed_is_classification = []
     seed_not_classification = []
     for instruction in seed_instructions:
@@ -59,5 +60,6 @@ def main():
             # add new response
             new_data = insert_new_instruct("result/generate_tasks2.jsonl", new_inst)
             machine_instructions.append(new_data)
+            exit(0)
 
 main()
