@@ -12,7 +12,7 @@ pip install modelscope
 export MODELSCOPE_CACHE=/mnt/workspace/modelscope_hub
 python load_qwen.py
 
-python preprocess.py --dataset result/final_generate.jsonl
+python preprocess.py --dataset Instruction_Generation/result/final_generate.jsonl
 
 mv instructions.jsonl LLaMA-Factory/dataset/
 mv dataset_info.json LLaMA-Factory/dataset/

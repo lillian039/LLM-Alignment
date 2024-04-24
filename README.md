@@ -10,10 +10,12 @@
 
 - [x] Filter out wrong answers
 
-#### Fintune LLM with instructions
+#### Finetune LLM with instructions and Evaluation
 
 Model: LLaMa
 
-Follow the steps of: [LLM process](GPU.md)
+Run the following instructions to finetune and evaluation.
 
-#### Evaluate the finetuned LLM
+```
+bash run.sh
+```
