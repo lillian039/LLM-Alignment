@@ -3,7 +3,7 @@ def extract():
     with open('result/model_outputs.json', 'r') as f:
         data = json.load(f)
     print(len(data))
-    output_file = 'result/model_outputs_precessed.json'
+    output_file = 'result/iteration_5000/model_outputs_precessed.json'
     with open(output_file, 'w') as f:
         f.write('[')
         for i, task in enumerate(data):
