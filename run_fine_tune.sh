@@ -8,12 +8,12 @@ cd ..
 
 pip install modelscope
 export MODELSCOPE_CACHE=/mnt/workspace/modelscope_hub
-python load_qwen.py
+python Fine_tune/load_qwen.py
 
-python preprocess.py --dataset Instruction_Generation/result/final_generate.jsonl
+python Fine_tune/preprocess.py --dataset Instruction_Generation/result/final_generate.jsonl
 
-mv instructions.jsonl LLaMA-Factory/dataset/
-mv dataset_info.json LLaMA-Factory/dataset/
+mv Fine_tune/instructions.jsonl LLaMA-Factory/dataset/
+mv Fine_tune/dataset_info.json LLaMA-Factory/dataset/
 
 bash Fine_tune/finetune.sh
 # bash download.sh
