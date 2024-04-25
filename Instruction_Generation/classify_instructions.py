@@ -14,7 +14,7 @@ def classify_instruction():
     client = OpenAI(base_url = "https://lonlie.plus7.plus/v1")
     logger = get_logger("run2")
     random.seed(123)
-    seed_instructions, machine_instructions = get_seed_machine("result/seed_tasks.jsonl", "result/generate_tasks2.jsonl")
+    seed_instructions, machine_instructions = get_seed_machine("result/seed_tasks.jsonl", "result/generate_tasks.jsonl")
     seed_is_classification = []
     seed_not_classification = []
     for instruction in seed_instructions:
@@ -34,7 +34,7 @@ def classify_instruction():
         logger.info(prompt)
         logger.info(f"response: {classification_result}")
         for inst, (num, is_classification) in zip(sub_list, classification_result):
-            insert_new_classification("result/classification_tasks3.jsonl", inst["instruction"], is_classification)
+            insert_new_classification("result/classification_tasks.jsonl", inst["instruction"], is_classification)
 
 classify_instruction()
 

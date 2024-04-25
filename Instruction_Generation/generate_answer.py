@@ -15,7 +15,7 @@ def generate_answer():
     client = OpenAI()
     logger = get_logger("run5")
     random.seed(123)
-    seed_dataset, classified_machine = get_classified_data("result/seed_tasks.jsonl", "result/classification_tasks2.jsonl")
+    seed_dataset, classified_machine = get_classified_data("result/seed_tasks.jsonl", "result/classification_tasks.jsonl")
     for i, task in enumerate(classified_machine):
         input, output = [], []
         logger.info(f"task {i}")
@@ -47,5 +47,5 @@ def generate_answer():
                 if not filter_task(output):
                     input, output = [], []
                     continue
-        insert_new_answer("result/generate_data2.jsonl", task, input, output)
+        insert_new_answer("result/generate_data.jsonl", task, input, output)
 generate_answer()

@@ -10,7 +10,7 @@ def filter_task():
     client = OpenAI()
     logger = get_logger("run5")
     random.seed(123)
-    seed_dataset, generated_data = get_classified_data("result/seed_tasks.jsonl", "result/generate_data2.jsonl")
+    seed_dataset, generated_data = get_classified_data("result/seed_tasks.jsonl", "result/generate_data.jsonl")
     for i, task in enumerate(generated_data):
         flag = True
         instance = task['instance']
