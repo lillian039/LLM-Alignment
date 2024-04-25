@@ -27,6 +27,8 @@ bash run_evaluation.sh
 
 - Generated instructions: [genereated_instructions](Instruction_Generation/result/final_generate.jsonl)
 - Fine-tune checkpoints: [checkpoints](Fine_tune/checkpoints/)
+  - Fine_tune mode: https://jbox.sjtu.edu.cn/l/O1rapi
+  - Download the model named `model.safetensors` and put it into [qwen_sft](Fine_tune/checkpoints/qwen_sft)
 - Evaluate results: [evaluation result](Evaluation/result)
 
 #### :dizzy: Our win rate is 14.68% :dizzy:
