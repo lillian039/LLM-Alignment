@@ -1,5 +1,7 @@
 # LLM-Alignment
 
+Team members: Keya Hu, Yijin Guo, Hang Ruan
+
 #### Automatic Instruction Data Generation
 
 - [x] Instruction Generation
@@ -14,8 +16,17 @@
 
 Model: LLaMa
 
-Run the following instructions to finetune and evaluation.
+Run the following instructions to fine-tune and evaluate.
 
 ```
-bash run.sh
+bash run_fine_tune.sh
+bash run_evaluation.sh
 ```
+
+#### Results
+
+- Generated instructions: [genereated_instructions](Instruction_Generation/result/final_generate.jsonl)
+- Fine-tune checkpoints: [checkpoints](Fine_tune/checkpoints/)
+- Evaluate results: [evaluation result](Evaluation/result)
+
+#### :dizzy: Our win rate is 14.68% :dizzy:
